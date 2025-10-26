@@ -4,7 +4,7 @@ export default function ({ challenges, onDelete, onEdit }) {
 
     async function handleDelete(id) {
         await deleteChallenge(id);
-        console.log("Deleted id : " + id);
+        // console.log("Deleted id : " + id);
         onDelete();
     }
 

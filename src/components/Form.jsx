@@ -17,7 +17,7 @@ export default ({ onSuccess, onCancel, challengeData }) => {
             description: data.description,
         }
 
-        console.log(challenge);
+        // console.log(challenge);
 
         if (challenge.id === "") {
             await addChallenge(challenge);
